@@ -5,8 +5,8 @@
 url: https://yejundong.github.io
 date_format: "ordinal"
 title: leaf
-subtitle: "持之以恒"
-description: "持之以恒"
+subtitle: "根深叶茂"
+description: "根深叶茂"
 keywords: leaf
 favicon: /favicon.ico
 timezone: Asia/Chongqing
@@ -118,14 +118,14 @@ github_username: yejundong
 #     clientID: 32cbf0baaa4c7109354d
 #     clientSecret: 3c50229777246501ea06517a030097bc96d30b5a
 
-# # ---------------- #
-# #      Search      #
-# # ---------------- #
-# simple_jekyll_search:
-#     # 是否支持全文搜索
-#     fulltext: false
-#     # 最多显示多少条搜索结果
-#     limit: 10
+# ---------------- #
+#      Search      #
+# ---------------- #
+simple_jekyll_search:
+    # 是否支持全文搜索
+    fulltext: true
+    # 最多显示多少条搜索结果
+    limit: 10
 
 # # ---------------- #
 # #    Analytics     #
