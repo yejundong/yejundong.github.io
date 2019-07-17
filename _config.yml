@@ -1,0 +1,150 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+#baseurl: https://comsince.github.io
+url: https://yejundong.github.io
+date_format: "ordinal"
+title: leaf
+subtitle: "持之以恒"
+description: "持之以恒"
+keywords: leaf
+favicon: /favicon.ico
+timezone: Asia/Chongqing
+encoding: "utf-8"
+side_bar_repo_limit: 5
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: leaf
+organization: 
+organization_url: 
+location: Chongqing, China
+email: 
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
+
+  -
+    href: /categories/
+    label: 分类
+
+#  -
+#    href: /wiki/
+#    label: 维基
+
+  # -
+  #   href: /open-source/
+  #   label: 开源
+    
+#  -
+#    href: /links/
+#    label: 链接
+
+  -
+    href: /about/
+    label: 关于
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+paginate_path: "/blog/page:num/"
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+plugins:
+    - jekyll-github-metadata
+    - rouge
+    - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+    - jekyll-jupyter-notebook
+    - jekyll-mentions
+#collections:
+#    wiki:
+#        output: true
+#        permalink: /wiki/:path/
+
+#jekyll_admin:
+#    hidden_links:
+#        - posts
+#        - pages
+#        - staticfiles
+#        - datafiles
+#        - configuration
+
+repository: yejundong/yejundong.github.io
+
+# ---------------- #
+#      Socials     #
+# ---------------- #
+github_username: yejundong
+# douban_username: comsince
+# facebook_username: comsince
+# weibo_username: comsince
+# zhihu_username: comsince
+# twitter_username: comsince
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: gittalk
+# comments_provider: gitalk
+# # !!!重要!!! 请修改下面两个用户名为你自己申请的
+# # !!!Important!!! Please modify usernames below to yours
+
+# # https://github.com/gitalk/gitalk#install
+# gitalk:
+#     owner: carlos9310
+#     repo: github_pages_comments
+#     clientID: 32cbf0baaa4c7109354d
+#     clientSecret: 3c50229777246501ea06517a030097bc96d30b5a
+
+# # ---------------- #
+# #      Search      #
+# # ---------------- #
+# simple_jekyll_search:
+#     # 是否支持全文搜索
+#     fulltext: false
+#     # 最多显示多少条搜索结果
+#     limit: 10
+
+# # ---------------- #
+# #    Analytics     #
+# # ---------------- #
+# google:
+#     analytics_id: UA-92285152-1
+
+# baidu:
+#     siteid: aa7cca56f75b5bd3c2d90ce085a76513        # 百度统计 js 代码后的字符串[注册后获取]
+
+# lean_cloud:
+#     enable: true
+#     app_id: tNrgz0QdwvywCfzrlSIyeYp4-MdYXbMMI
+#     app_key: RMuICf7NkKW2vxksmr7W5b70
+
+
+# # ---------------- #
+# #      Datas       #
+# # ---------------- #
+# skill_software_keywords: [Python, Java, JavaScript, SQL, Design Patterns]
+# skill_update_keywords: [hadoop, spark, flink, sparksql, hive, ELK, ML, DL, NLP]
+
